@@ -1,13 +1,13 @@
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
-\usepackage[empty]{fullpage}
+\usepackage[margin=0.75in]{geometry} % Replaced fullpage with geometry
 \usepackage{titlesec}
 \usepackage{marvosym}
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[pdftex]{hyperref}
+\usepackage{hyperref}
 \usepackage{fancyhdr}
 
 
@@ -18,11 +18,11 @@
 \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
-\addtolength{\oddsidemargin}{-0.375in}
-\addtolength{\evensidemargin}{-0.375in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.5in}
-\addtolength{\textheight}{1.0in}
+% \addtolength{\oddsidemargin}{-0.375in}
+% \addtolength{\evensidemargin}{-0.375in}
+% \addtolength{\textwidth}{1in}
+% \addtolength{\topmargin}{-.5in}
+% \addtolength{\textheight}{1.0in}
 
 \urlstyle{same}
 
@@ -93,11 +93,11 @@
         \resumeItem{Event-Driven Automation}
           {Lead a team of interns with FTEs \& onboarded, introduced Stackstorm in Flipkart. The event-driven automation support made our alerts smarter \& the cookbooks reduced the manual work of teams by 65\%.}
         \resumeItem{VM Service Catalog}
-          {Service Catalog for VM-based stateful systems. Using Saltstack in the background to gather all the grains, this system is scalable enough to manage tens of thousands of servers, and fast enough to communicate with each system in seconds. Currently handles 18k servers}
-        \resumeItem{OS and Runtime Upgrade [Ongoing]}
-          {OS and Runtime Upgrades are a large scale code refactoring exercise fixing first level dependencies, transitive dependencies, deprecation, backward compatibility \& API changes. It's in experimental phase with current success rate at 50\%.}
-        \resumeItem{Production Readiness Review \& Service Maturity Assessment [Ongoing]}
-          {These two projects deal with pre \& post deployment of services into production. The services are evaluated on the basis of categories like reliability, security, code quality, service design \& compliance.}
+          {Service Catalog for VM-based stateful systems. Using Saltstack in the background to gather all the grains, this system is scalable enough to manage tens of thousands of servers, and fast enough to communicate with each system in seconds.}
+        \resumeItem{Codelift}
+          {Leading a team of 3, built a platform focussed on mass upgrades of code repositories with special focus on upgrading libraries \& runtime environments like JDK. (53 \%success rate currently.)}
+        \resumeItem{Eventstore Platform}
+          {(Early stages) Alongwith a team of 6, building a platform which will solve our use cases for Distributed Tracing, Service Graphs, Logging, Change Management, any other suructured event use cases.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -128,14 +128,14 @@
       \resumeItemListStart
         \resumeItem{Sponsored Listing}
           {Built an ad product from scratch [Sponsored listing] using web components which got the highest number of impressions at one point with an above industry-average conversion rate.}
+        \resumeItem{Notification Delivery Platform}
+          {Collaborated with another team to develop a notification delivery platform, integrating it into the organization's wide CI/CD pipelines as the standard.}
         \resumeItem{Logging \& Monitoring Framework}
           {Led a team of 5 contractors \& FTEs to design \& build an end-to-end logging plus monitoring framework which helped us identify the seasonality of our ads sales, monitor the golden signals, and figure out issues in real-time helping the org save thousands of dollars over time.}
         \resumeItem{Operations to DevOps transition}
-          {Technical Lead for a team of 10 operations analysts \& mentored them to become successful DevOps engineers.}
+          {Technical Lead for a team of 10 operations analysts \& mentored them to become successful DevOps engineers. Helped hire new team of devops engineers for a sister organisation}
         \resumeItem{Change Management System}
           {Designed and created a change management system that logs more than 95\% changes on the Expedia platform to ServiceNow.}
-        \resumeItem{Notification Delivery Platform}
-          {Collaborated with another team to develop a notification delivery platform, integrating it into the organization's wide CI/CD pipelines as the standard.}
       \resumeItemListEnd
 
     \resumeSubheading
